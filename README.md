@@ -10,9 +10,9 @@ A beginner project that I am proud of, because I worked hard on it.
 I aim to enhance it further & further إن شاء الله, but when I finish this year, my last year in school :')
 # Features
 - Read JSON strings & files.
-- Generate JSON strings.
+- Generate JSON strings & write them into files.
 - Convert JSON objects to Java objects & vice versa.
-- Acsess JSON fields using JSON pointers.
+- Access JSON fields using JSON pointers.
 - supports nested JSON objects & arrays.
 # Examples
 ## Initialise a new JSON object
@@ -38,7 +38,7 @@ obj.put("THINGS I LOVE", arr);
 ```java
 obj.write(new File("User-info.json"));
 ```
-The file should like like this:
+The file should look like this:
 ```json
 {
      "isAlive":true

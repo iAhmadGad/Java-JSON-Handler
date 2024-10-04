@@ -36,7 +36,7 @@ public class Validator
 	 * Checks if ArrayList is valid to be converted to JSONArray.
 	 * 
 	 * @param list
-	 * @return true if it's valid & false if it's not
+	 * @return true if it's valid and false if it's not
 	 */
 	protected static boolean isValid(ArrayList<Object> list)
 	{
@@ -51,7 +51,7 @@ public class Validator
 	 * Checks if object is valid to be put into JSONObject or added to JSONArray.
 	 * 
 	 * @param object
-	 * @return true if it's valid & false if it's not
+	 * @return true if it's valid and false if it's not
 	 */
 	protected static boolean isValid(Object object)
 	{
@@ -63,7 +63,7 @@ public class Validator
 	 * Checks if object is JSONObject.
 	 * 
 	 * @param object
-	 * @return true if it's a JSONObject & false if it's not
+	 * @return true if it's a JSONObject and false if it's not
 	 */
 	protected static boolean isJSONObject(Object object)
 	{
@@ -75,7 +75,7 @@ public class Validator
 	 * Checks if object is JSONArray.
 	 * 
 	 * @param object
-	 * @return true if it's a JSONArray & false if it's not
+	 * @return true if it's a JSONArray and false if it's not
 	 */
 	protected static boolean isJSONArray(Object object)
 	{
@@ -87,7 +87,7 @@ public class Validator
 	 * Checks if object is String.
 	 * 
 	 * @param object
-	 * @return true if it's a String & false if it's not
+	 * @return true if it's a String and false if it's not
 	 */
 	protected static  boolean isString(Object object)
 	{
@@ -99,7 +99,7 @@ public class Validator
 	 * Checks if value is boolean.
 	 * 
 	 * @param value
-	 * @return true if it's a boolean & false if it's not
+	 * @return true if it's a boolean and false if it's not
 	 */
 	protected static boolean isBoolean(Object value)
 	{
@@ -111,7 +111,7 @@ public class Validator
 	 * Checks if value is int.
 	 * 
 	 * @param value
-	 * @return true if it's an int & false if it's not
+	 * @return true if it's an int and false if it's not
 	 */
 	protected static boolean isInteger(Object value)
 	{
@@ -123,7 +123,7 @@ public class Validator
 	 * Checks if value is double.
 	 * 
 	 * @param value
-	 * @return true if it's a double & false if it's not
+	 * @return true if it's a double and false if it's not
 	 */
 	protected static boolean isDouble(Object value)
 	{
@@ -166,7 +166,7 @@ public class Validator
 	 * Checks if string presents a String value
 	 * 
 	 * @param string
-	 * @return true if it presents a String value & false if it's not
+	 * @return true if it presents a String value and false if it's not
 	 */
 	protected static boolean presentsString(String string)
 	{
@@ -178,7 +178,7 @@ public class Validator
 	 * Checks if string presents a boolean value
 	 * 
 	 * @param string
-	 * @return true if it presents a String value & false if it's not
+	 * @return true if it presents a String value and false if it's not
 	 */
 	protected static boolean presentsBoolean(String string)
 	{
@@ -190,7 +190,7 @@ public class Validator
 	 * Checks if string presents a double value
 	 * 
 	 * @param string
-	 * @return true if it presents a double value & false if it's not
+	 * @return true if it presents a double value and false if it's not
 	 */
 	protected static boolean presentsDouble(String string)
 	{
@@ -208,7 +208,7 @@ public class Validator
 	 * Checks if string presents an int value
 	 * 
 	 * @param string
-	 * @return true if it presents an int value & false if it's not
+	 * @return true if it presents an int value and false if it's not
 	 */
 	protected static boolean presentsInteger(String string)
 	{

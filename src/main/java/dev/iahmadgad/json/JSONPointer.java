@@ -42,7 +42,7 @@ public class JSONPointer
 	/**
 	 * The value which this pointer points to.
 	 * <p>
-	 * it can be any valid value that could be stored in JSONObjects & JSONArrays.
+	 * it can be any valid value that could be stored in JSONObjects and JSONArrays.
 	 */
 	private static Object pointee;
 	
@@ -136,7 +136,7 @@ public class JSONPointer
 	}
 	
 	/**
-	 * Parses the given path & splits it to an array of Strings presenting path locations.
+	 * Parses the given path and splits it to an array of Strings presenting path locations.
 	 * 
 	 * @return an array of Strings presenting path locations
 	 */

@@ -11,7 +11,7 @@ import java.util.List;
  * JSONArray Class.
  * <p>
  * JSONArray is an array contains an ordered sequence of values, 
- * values can only be integers, doubles, booleans, or nested JSONObjects & JSONArrays, but it can't be chars or any other type.
+ * values can only be integers, doubles, booleans, or nested JSONObjects and JSONArrays, but it can't be chars or any other type.
  * 
  * @author iAhmadGad
  * @version 0.3
@@ -36,7 +36,7 @@ public class JSONArray
 	/**
 	 * The Constructor which creates a new JSONArray from a text.
 	 * 
-	 * @param Source JSON string (text)
+	 * @param text Source JSON string (text)
 	 */
 	public JSONArray(String text)
 	{
@@ -46,7 +46,7 @@ public class JSONArray
 	/**
 	 * The Constructor which creates a new JSONArray from a Java array (with valid values only as mentioned above).
 	 * 
-	 * @param Source Java Array
+	 * @param array Source Java Array
 	 */
 	public <T> JSONArray(T[] array)
 	{
@@ -56,7 +56,7 @@ public class JSONArray
 	/**
 	 * The Constructor which creates a new JSONArray from a Java list (with valid values only as mentioned above).
 	 * 
-	 * @param Source Java List
+	 * @param list Source Java List
 	 */
 	public <T> JSONArray(List<T> list)
 	{
@@ -164,7 +164,7 @@ public class JSONArray
 	}
 	
 	/**
-	 * Indentation & space around colon in the String.
+	 * Indentation and space around colon in the String.
 	 */
 	protected int indentation = 3, spaceAroundColon = 0;
 	
@@ -255,7 +255,7 @@ public class JSONArray
 	/**
 	 * Converts the JSONArray to a Java array.
 	 * 
-	 * @param Java array
+	 * @param a Java array
 	 * @return An array of the same type
 	 */
 	public <T> T[] toArray(T[] a)
@@ -276,7 +276,8 @@ public class JSONArray
 	/**
 	 * Appends the specified array to the end of the JSONArray.
 	 * 
-	 * @param value
+	 * @param <T>
+	 * @param array array of type T
 	 */
 	public <T> void addAll(T[] array)
 	{

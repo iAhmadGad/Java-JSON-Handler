@@ -64,7 +64,7 @@ public class JSONStringBuilder
 	}
 	
 	/**
-	 * Indentation & space around colon.
+	 * Indentation and space around colon.
 	 */
 	private int indentation, spaceAroundColon;
 	
@@ -95,7 +95,7 @@ public class JSONStringBuilder
 	 * Builds the JSONObject String.
 	 * <p>
 	 * It uses the int i to determine the indentation level when building the String, 
-	 * & it uses recursion when there is another JSONObject or a JSONArray nested in it & recalls the method build again to build the nested node with indentation level of (i + 1).
+	 * and it uses recursion when there is another JSONObject or a JSONArray nested in it and recalls the method build again to build the nested node with indentation level of (i + 1).
 	 * 
 	 * @param object
 	 * @param i
@@ -133,7 +133,7 @@ public class JSONStringBuilder
 	 * Builds the JSONArray String.
 	 * <p>
 	 * It uses the int i to determine the indentation level when building the String, 
-	 * & it uses recursion when there is another JSONArray or JSONObject nested in it & recalls the method build again to build the nested node with indentation level of (i + 1).
+	 * and it uses recursion when there is another JSONArray or JSONObject nested in it and recalls the method build again to build the nested node with indentation level of (i + 1).
 	 * 
 	 * @param array
 	 * @param i

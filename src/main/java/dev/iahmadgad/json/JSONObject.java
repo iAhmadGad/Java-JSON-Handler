@@ -17,7 +17,7 @@ import java.util.Set;
  * <p>
  * JSONObject is an object contains (key - value) pairs, 
  * keys are always Strings, 
- * while values can only be integers, doubles, booleans, or nested JSONObjects & JSONArrays, but it can't be chars or any other type.
+ * while values can only be integers, doubles, booleans, or nested JSONObjects and JSONArrays, but it can't be chars or any other type.
  * 
  * @author iAhmadGad
  * @version 0.3
@@ -52,7 +52,7 @@ public class JSONObject
 	/**
 	 * The Constructor which creates a new JSONObject from a text.
 	 * 
-	 * @param Source JSON string (text)
+	 * @param text Source JSON string (text)
 	 */
 	public JSONObject(String text)
 	{
@@ -62,7 +62,7 @@ public class JSONObject
 	/**
 	 * The Constructor which creates a new JSONObject from a file.
 	 * 
-	 * @param Source JSON file
+	 * @param file Source JSON file
 	 */
 	public JSONObject(File file)
 	{
@@ -72,9 +72,9 @@ public class JSONObject
 	/**
 	 * The Constructor which creates a new JSONObject from a Java object.
 	 * <p>
-	 * it creates pairs from the object's fields as variables, arrays & lists (with valid values only as mentioned above).
+	 * it creates pairs from the object's fields as variables, arrays and lists (with valid values only as mentioned above).
 	 * 
-	 * @param Source Java object
+	 * @param object Source Java object
 	 */
 	public <T> JSONObject(T object)
 	{
@@ -84,9 +84,9 @@ public class JSONObject
 	/**
 	 * Converts the JSONObject to a Java Object.
 	 * <p>
-	 * it takes JSONObject keys & assign their values to the object fields which the same name as the key.
+	 * it takes JSONObject keys and assign their values to the object fields which the same name as the key.
 	 * 
-	 * @param Java object class
+	 * @param c Java object class
 	 * @return An Object of the same class
 	 */
 	public <T> T toClass(Class<T> c)
@@ -95,7 +95,7 @@ public class JSONObject
 	}
 	
 	/**
-	 * Indentation & space around colon in the String.
+	 * Indentation and space around colon in the String.
 	 */
 	protected int indentation = 3, spaceAroundColon = 0;
 	

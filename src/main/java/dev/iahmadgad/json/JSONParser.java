@@ -115,7 +115,7 @@ public class JSONParser
 	}
 	
 	/**
-	 * Deletes spaces & new lines from the source.
+	 * Deletes spaces and new lines from the source.
 	 * 
 	 * @see #line
 	 */
@@ -153,7 +153,7 @@ public class JSONParser
 	/**
 	 * Parses JSONObject from the source text.
 	 * <p>
-	 * It uses recursion when there is another JSONObject or JSONArray nested in it & calls another method to parse it.
+	 * It uses recursion when there is another JSONObject or JSONArray nested in it and calls another method to parse it.
 	 * 
 	 * @param text
 	 * @return parsed JSONObject
@@ -217,7 +217,7 @@ public class JSONParser
 	/**
 	 * Parses JSONObject from the source text.
 	 * <p>
-	 * It uses recursion when there is another JSONArray or JSONObject nested in it & calls another method to parse it.
+	 * It uses recursion when there is another JSONArray or JSONObject nested in it and calls another method to parse it.
 	 * 
 	 * @param text
 	 * @return parsed JSONArray

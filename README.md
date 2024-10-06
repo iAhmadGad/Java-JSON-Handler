@@ -1,8 +1,9 @@
 # Java JSON
-| Metrics | Workflows |
-| -------- | ------- |
-| ![Metrics](https://raw.githubusercontent.com/iahmadgad/iahmadgad-metrics/refs/heads/main/json-java-metrics.svg) | [![Gradle Java CI](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml/badge.svg)](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml) |
-
+[![Gradle](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml/badge.svg)](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml)
+<details>
+     <summary><img src="https://img.shields.io/badge/json--java-metrics-blue" alt="Metrics"></summary>
+     <img src="https://raw.githubusercontent.com/iahmadgad/iahmadgad/refs/heads/metrics/json-java.metrics.svg" alt="Metrics">     
+</details>
 Java implementation of JSON.
 
 A beginner project that I am proud of, because I worked hard on it.

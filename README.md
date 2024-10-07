@@ -1,5 +1,6 @@
 # Java JSON
 [![Gradle](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml/badge.svg)](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml)
+[![LICENSE](https://img.shields.io/github/license/iahmadgad/json-java.svg)](LICENSE)
 <details>
      <summary><img src="https://img.shields.io/badge/json--java-metrics-blue" alt="Metrics"></summary>
      <img src="https://raw.githubusercontent.com/iahmadgad/iahmadgad/refs/heads/metrics/json-java.metrics.svg" alt="Metrics">     

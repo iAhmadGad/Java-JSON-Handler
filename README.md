@@ -1,11 +1,6 @@
 # Java JSON
 [![Gradle](https://img.shields.io/github/actions/workflow/status/iahmadgad/json-java/gradle.yml?label=Gradle&logo=gradle)](https://github.com/iahmadgad/json-java/actions/workflows/gradle.yml)
 [![Javadoc][Javadoc Badge]](https://github.com/iahmadgad/json-java/actions/workflows/javadoc.yml)
-[![LICENSE](https://img.shields.io/github/license/iahmadgad/json-java.svg)](https://github.com/iahmadgad/json-java/blob/main/LICENSE)
-<details>
-     <summary><picture><img src="https://img.shields.io/badge/json--java-metrics-blue" alt="Metrics"></picture></summary>
-     <img src="https://raw.githubusercontent.com/iahmadgad/iahmadgad/refs/heads/metrics/json-java.metrics.svg" alt="Metrics">     
-</details>
 
 Java implementation of JSON.
 
